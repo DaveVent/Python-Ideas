@@ -2,10 +2,10 @@
 
 # Creare un dizionario di dizionari
 diz = {
-    "Piattaforma 1": {"Utente" : "utente1", "Password" : "password1"},
-    "Piattaforma 2": {"Utente" : "utente2", "Password" : "password2"},
-    "Piattaforma 3": {"Utente" : "utente2", "Password" : "password3"},
-    "Piattaforma 4": {"Utente" : "utente2", "Password" : "password4"}
+    "piattaforma1": {"Utente" : "utente1", "Password" : "password1"},
+    "piattaforma2": {"Utente" : "utente2", "Password" : "password2"},
+    "piattaforma3": {"Utente" : "utente2", "Password" : "password3"},
+    "piattaforma4": {"Utente" : "utente2", "Password" : "password4"}
     }
 
 # Mostrare tutte le piattaforme disponibili
