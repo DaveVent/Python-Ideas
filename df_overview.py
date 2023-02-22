@@ -13,6 +13,6 @@ def overview(df):
     
     # Presenza di valori nulli
     if df.isnull().values.any() == False:
-        print("Nulli: ", df.isnull().any().sum())
+        print("Nulli: ", df.isnull().values.any())
     else:
         print("\nNulli:\n\n", df.isnull().sum())
