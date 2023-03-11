@@ -3,7 +3,8 @@
 import pandas as pd
 
 # Crea una lista di liste separando gli elementi della colonna desiderata (String, in questo caso) in base a un delimitatore
-liste = data.String.str.split("_")
+delim = "_"
+liste = data.String.str.split(delim)
 
 # Individua la lista con il maggior numero di stringhe
 lunghezza_max = max([len(lista) for lista in liste])
