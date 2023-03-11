@@ -15,7 +15,7 @@ for i in range(1, lunghezza_max + 1):
     colonne.append("colonna" + str(i))
  
 # Aggiunge le colonne al dataframe e divide la stringa inserendo ogni elemento in una colonna separata
-data[colonne] = data.String.str.split("_", expand=True)
+data[colonne] = data.String.str.split(delim, expand=True)
 
 # Elimina la colonna di partenza
 data.drop("String", inplace=True)
