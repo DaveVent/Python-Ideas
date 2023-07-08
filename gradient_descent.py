@@ -23,8 +23,8 @@ def gradient_descent(x_start, learning_rate, num_iterations):
 # Function to update the plot
 def update(frame):
     ax.cla()
-    ax.plot(x_data, y_data, color='darkblue')
-    ax.scatter(x_values[frame], quadratic_function(x_values[frame]), color='red', s=50)
+    ax.plot(x_data, y_data, color='darkblue', zorder=0)
+    ax.scatter(x_values[frame], quadratic_function(x_values[frame]), color='red', s=50, zorder=1)
 
     ax.set_xlabel('x')
     ax.set_ylabel('f(x)')
